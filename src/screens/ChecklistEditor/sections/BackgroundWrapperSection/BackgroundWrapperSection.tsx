@@ -1,5 +1,4 @@
 import { PlusIcon } from "lucide-react";
-import React from "react";
 import { Button } from "../../../../components/ui/button";
 
 export const BackgroundWrapperSection = (): JSX.Element => {

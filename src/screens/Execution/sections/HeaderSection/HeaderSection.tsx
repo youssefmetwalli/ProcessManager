@@ -1,14 +1,8 @@
-import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Progress } from "../../../../components/ui/progress";
+import { milestones } from "../../../../lib/elements/execution/execution";
 
-const milestones = [
-  { label: "外観", status: "completed" },
-  { label: "寸法", status: "completed" },
-  { label: "塗装", status: "current" },
-  { label: "機能", status: "pending" },
-  { label: "最終", status: "pending" },
-];
+
 
 export const HeaderSection = (): JSX.Element => {
   return (

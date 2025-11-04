@@ -1,28 +1,7 @@
-import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { infoItems } from "../../../../lib/elements/execution/execution";
 
-const infoItems = [
-  {
-    icon: "📦",
-    label: "ロット番号:",
-    value: "A2024-001",
-  },
-  {
-    icon: "🏭",
-    label: "製品:",
-    value: "製品A",
-  },
-  {
-    icon: "👤",
-    label: "検査者:",
-    value: "田中太郎",
-  },
-  {
-    icon: "📅",
-    label: "日時:",
-    value: "2024/03/15 14:30",
-  },
-];
+
 
 export const InfoCardSection = (): JSX.Element => {
   return (

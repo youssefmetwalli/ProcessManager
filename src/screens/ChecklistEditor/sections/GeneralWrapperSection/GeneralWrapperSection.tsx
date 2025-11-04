@@ -1,36 +1,8 @@
-import React from "react";
 import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
+import { inspectionItems } from "../../../../lib/elements/checklisteditor/checklisteditor";
 
-const inspectionItems = [
-  {
-    id: 1,
-    number: "1",
-    title: "外装の傷・汚れ確認",
-    type: "選択肢",
-    typeColor: "bg-[#e8f5e9]",
-    typeTextColor: "text-[#2196f3]",
-    metadata: ["必須項目", "参考画像あり"],
-  },
-  {
-    id: 2,
-    number: "2",
-    title: "寸法測定",
-    type: "数値",
-    typeColor: "bg-[#e8f5e9]",
-    typeTextColor: "text-[#2196f3]",
-    metadata: ["必須項目", "許容範囲: ±0.5mm"],
-  },
-  {
-    id: 3,
-    number: "3",
-    title: "塗装状態確認",
-    type: "画像",
-    typeColor: "bg-[#e8f5e9]",
-    typeTextColor: "text-[#2196f3]",
-    metadata: ["任意項目", "手書き可能"],
-  },
-];
+
 
 export const GeneralWrapperSection = (): JSX.Element => {
   return (

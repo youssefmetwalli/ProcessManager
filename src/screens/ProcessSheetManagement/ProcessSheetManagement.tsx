@@ -1,4 +1,3 @@
-import React from "react";
 import { CardWrapperSection } from "./sections/CardWrapperSection";
 import { FooterSection } from "./sections/FooterSection";
 import { HeaderSection } from "./sections/HeaderSection";

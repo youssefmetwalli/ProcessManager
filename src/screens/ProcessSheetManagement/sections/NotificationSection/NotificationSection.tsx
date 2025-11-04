@@ -1,26 +1,8 @@
-import React from "react";
 import { Button } from "../../../../components/ui/button";
+import { actionButtons } from "../../../../lib/elements/processSheetManagement/processSheetManagement";
 
-const actionButtons = [
-  {
-    label: "📝 編集",
-    className: "bg-hawkes-blue text-pickled-bluewood hover:bg-hawkes-blue/90",
-    fontClass: "[font-family:'Arial-Bold',Helvetica] font-bold text-[12.9px]",
-  },
-  {
-    label: "! 条件付き承認",
-    className:
-      "bg-[linear-gradient(170deg,rgba(243,156,18,1)_0%,rgba(230,126,34,1)_100%)] text-white hover:opacity-90",
-    fontClass: "[font-family:'Arial-Bold',Helvetica] font-bold text-base",
-  },
-  {
-    label: "✅ 承認",
-    className:
-      "bg-[linear-gradient(170deg,rgba(39,174,96,1)_0%,rgba(34,153,84,1)_100%)] text-white hover:opacity-90",
-    fontClass:
-      "font-semantic-button font-[number:var(--semantic-button-font-weight)] text-[length:var(--semantic-button-font-size)] [font-style:var(--semantic-button-font-style)]",
-  },
-];
+
+
 
 export const NotificationSection = (): JSX.Element => {
   return (

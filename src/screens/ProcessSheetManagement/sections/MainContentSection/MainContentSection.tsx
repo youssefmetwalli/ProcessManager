@@ -1,69 +1,8 @@
-import React from "react";
 import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { cautionItems, goodItems, ngItems } from "../../../../lib/elements/processSheetManagement/processSheetManagement";
 
-const ngItems = [
-  {
-    id: 5,
-    title: "塗装厚さ測定",
-    measurement: "118μm",
-    status: "NG",
-    statusBg: "bg-azalea",
-    statusText: "text-cinnabar",
-    standard: "基準値: 120-130μm",
-    tolerance: "許容範囲外",
-    comment: "塗装厚が基準値を下回っています。再塗装が必要です。",
-    hasImage: true,
-    imageSrc: "https://c.animaapp.com/mhk25e65Zwy9on/img/component-1-2.svg",
-  },
-];
-
-const cautionItems = [
-  {
-    id: 1,
-    title: "外観チェック",
-    result: "要注意",
-    status: "要注意",
-    statusBg: "bg-barley-white",
-    statusText: "text-yukon-gold",
-    detail1: "軽微な傷あり",
-    detail2: "写真: 2枚",
-    comment: "表面に微細な擦り傷を確認。機能には影響なし。",
-  },
-  {
-    id: 3,
-    title: "塗装状態確認",
-    result: "要注意",
-    status: "要注意",
-    statusBg: "bg-barley-white",
-    statusText: "text-yukon-gold",
-    detail1: "色ムラあり",
-    comment: null,
-  },
-];
-
-const goodItems = [
-  {
-    id: 2,
-    title: "寸法測定",
-    measurement: "125.3mm",
-    status: "OK",
-    statusBg: "bg-zanah",
-    statusText: "text-jungle-green",
-    standard: "基準値: 125±0.5mm",
-    tolerance: "許容範囲内",
-  },
-  {
-    id: 4,
-    title: "動作確認",
-    result: "正常動作",
-    status: "OK",
-    statusBg: "bg-zanah",
-    statusText: "text-jungle-green",
-    detail1: "全項目チェック済み",
-  },
-];
 
 export const MainContentSection = (): JSX.Element => {
   return (

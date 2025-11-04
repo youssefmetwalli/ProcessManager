@@ -1,4 +1,3 @@
-import React from "react";
 import { DashboardMainSection } from "./sections/DashboardMainSection/DashboardMainSection";
 import { SidebarSection } from "./sections/SidebarSection";
 

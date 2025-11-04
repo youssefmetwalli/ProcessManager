@@ -1,22 +1,7 @@
-import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Label } from "../../../../components/ui/label";
 import { Textarea } from "../../../../components/ui/textarea";
-
-const signatureData = [
-  {
-    role: "検査実施者",
-    name: "田中太郎",
-    timestamp: "2024/03/15 15:45",
-    isSigned: true,
-  },
-  {
-    role: "品質管理責任者",
-    name: "山田次郎",
-    timestamp: "未署名",
-    isSigned: false,
-  },
-];
+import { signatureData } from "../../../../lib/elements/processSheetManagement/processSheetManagement";
 
 export const FooterSection = (): JSX.Element => {
   return (

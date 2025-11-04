@@ -1,46 +1,7 @@
-import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { inspectionDetails, statusCards } from "../../../../lib/elements/processSheetManagement/processSheetManagement";
 
-const statusCards = [
-  {
-    count: "9",
-    label: "良好",
-    color: "text-jungle-green",
-  },
-  {
-    count: "2",
-    label: "要注意",
-    color: "text-buttercup",
-  },
-  {
-    count: "1",
-    label: "不良",
-    color: "text-cinnabar",
-  },
-];
 
-const inspectionDetails = [
-  {
-    label: "製品コード",
-    value: "PRD-2024-001",
-  },
-  {
-    label: "ロット番号",
-    value: "LOT-2024-03-001",
-  },
-  {
-    label: "検査者",
-    value: "田中太郎",
-  },
-  {
-    label: "検査日時",
-    value: "2024/03/15 15:45",
-  },
-  {
-    label: "所要時間",
-    value: "18分32秒",
-  },
-];
 
 export const CardWrapperSection = (): JSX.Element => {
   return (

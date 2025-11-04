@@ -1,4 +1,3 @@
-import React from "react";
 import { ContentContainerSection } from "./sections/ContentContainerSection";
 import { HeaderSection } from "./sections/HeaderSection";
 import { InfoCardSection } from "./sections/InfoCardSection";

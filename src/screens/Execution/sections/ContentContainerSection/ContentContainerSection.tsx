@@ -1,22 +1,5 @@
-import React from "react";
 import { Button } from "../../../../components/ui/button";
-
-const buttons = [
-  {
-    text: "前へ",
-    className: "bg-porcelain text-pickled-bluewood hover:bg-porcelain/90",
-  },
-  {
-    text: "一時保存",
-    className:
-      "bg-[linear-gradient(170deg,rgba(52,152,219,1)_0%,rgba(41,128,185,1)_100%)] text-white hover:opacity-90",
-  },
-  {
-    text: "次へ",
-    className:
-      "bg-[linear-gradient(170deg,rgba(39,174,96,1)_0%,rgba(34,153,84,1)_100%)] text-white hover:opacity-90",
-  },
-];
+import { buttons } from "../../../../lib/elements/execution/execution";
 
 export const ContentContainerSection = (): JSX.Element => {
   return (

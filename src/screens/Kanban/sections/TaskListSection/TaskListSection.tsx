@@ -1,17 +1,7 @@
-import React from "react";
 import { Button } from "../../../../components/ui/button";
+import { mainMenuItems, reportMenuItems } from "../../../../lib/elements/kanban/kanban";
 
-const mainMenuItems = [
-  { icon: "🏠", label: "ダッシュボード", active: false },
-  { icon: "📋", label: "マスタ管理", active: true },
-  { icon: "⚙", label: "工程管理", active: false },
-  { icon: "▶", label: "実行", active: false },
-];
 
-const reportMenuItems = [
-  { icon: "📊", label: "品質分析", active: false },
-  { icon: "📄", label: "帳票出力", active: false },
-];
 
 export const TaskListSection = (): JSX.Element => {
   return (

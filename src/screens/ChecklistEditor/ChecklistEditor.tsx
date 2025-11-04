@@ -1,4 +1,3 @@
-import React from "react";
 import { BackgroundSection } from "./sections/BackgroundSection";
 import { BackgroundShadowSection } from "./sections/BackgroundShadowSection";
 import { BackgroundWrapperSection } from "./sections/BackgroundWrapperSection";

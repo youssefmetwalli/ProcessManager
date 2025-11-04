@@ -9,23 +9,7 @@ import {
   BreadcrumbSeparator,
 } from "../../../../components/ui/breadcrumb";
 import { Button } from "../../../../components/ui/button";
-
-const breadcrumbItems = [
-  { label: "マスタ管理", isLink: true },
-  { label: "作業チェックリスト", isLink: true },
-  { label: "製品外観検査リスト", isLink: false },
-];
-
-const metadataItems = [
-  {
-    icon: "https://c.animaapp.com/mhk25e65Zwy9on/img/component-1-1.svg",
-    text: "更新日: 2024/03/15",
-  },
-  {
-    icon: "https://c.animaapp.com/mhk25e65Zwy9on/img/component-1-14.svg",
-    text: "作成者: 田中太郎",
-  },
-];
+import { breadcrumbItems, metadataItems } from "../../../../lib/elements/checklisteditor/checklisteditor";
 
 export const BackgroundShadowSection = (): JSX.Element => {
   return (

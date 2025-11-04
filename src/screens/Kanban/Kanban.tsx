@@ -1,4 +1,3 @@
-import React from "react";
 import { DashboardSection } from "../Analytics/sections/DashboardSection";
 import { TaskListSection } from "./sections/TaskListSection";
 

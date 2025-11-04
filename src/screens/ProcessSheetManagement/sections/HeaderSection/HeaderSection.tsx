@@ -1,14 +1,9 @@
 import { MenuIcon, Share2Icon } from "lucide-react";
-import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Progress } from "../../../../components/ui/progress";
+import { stepData } from "../../../../lib/elements/processSheetManagement/processSheetManagement";
 
-const stepData = [
-  { label: "準備", status: "completed", color: "bg-jungle-green" },
-  { label: "実行", status: "completed", color: "bg-jungle-green" },
-  { label: "確認", status: "active", color: "bg-curious-blue" },
-  { label: "完了", status: "pending", color: "bg-[#e0e6ed]" },
-];
+
 
 export const HeaderSection = (): JSX.Element => {
   return (

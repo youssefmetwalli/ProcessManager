@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
@@ -9,18 +8,10 @@ import {
   RadioGroupItem,
 } from "../../../../components/ui/radio-group";
 import { Textarea } from "../../../../components/ui/textarea";
+import { imageToolButtons, inspectionOptions } from "../../../../lib/elements/execution/execution";
 
-const imageToolButtons = [
-  { icon: "🔍", label: "拡大" },
-  { icon: "✏", label: "手書き" },
-  { icon: "📐", label: "比較" },
-];
 
-const inspectionOptions = [
-  { id: "good", label: "良好 - 問題なし" },
-  { id: "caution", label: "要注意 - 軽微な問題あり" },
-  { id: "defect", label: "不良 - 修正が必要" },
-];
+
 
 export const MainContentWrapperSection = (): JSX.Element => {
   return (

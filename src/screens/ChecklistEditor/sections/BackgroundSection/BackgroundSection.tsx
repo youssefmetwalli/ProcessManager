@@ -1,24 +1,5 @@
-import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
-
-const statsData = [
-  {
-    label: "カテゴリ",
-    value: "外観検査",
-  },
-  {
-    label: "使用回数",
-    value: "156回",
-  },
-  {
-    label: "チェック項目数",
-    value: "12項目",
-  },
-  {
-    label: "推定作業時間",
-    value: "約15分",
-  },
-];
+import { statsData } from "../../../../lib/elements/analytics/analyticsdashboard";
 
 export const BackgroundSection = (): JSX.Element => {
   return (
