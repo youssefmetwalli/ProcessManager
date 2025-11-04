@@ -1,0 +1,351 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --aqua-spring: rgba(248, 249, 250, 1);
+  --arial-narrow-font-family: "Arial", Helvetica;
+  --arial-narrow-font-size: 13px;
+  --arial-narrow-font-style: normal;
+  --arial-narrow-font-weight: 400;
+  --arial-narrow-letter-spacing: 0px;
+  --arial-narrow-line-height: normal;
+  --athens-gray: rgba(241, 243, 245, 1);
+  --azalea: rgba(248, 215, 218, 1);
+  --barley-white: rgba(224, 230, 237, 1);
+  --black: rgba(0, 0, 0, 1);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --boulder: rgba(117, 117, 117, 1);
+  --buttercup: rgba(243, 156, 18, 1);
+  --california: rgba(255, 152, 0, 1);
+  --chablis: rgba(255, 238, 238, 1);
+  --chateau-green: rgba(76, 175, 80, 1);
+  --cinnabar: rgba(231, 76, 60, 1);
+  --curious-blue: rgba(52, 152, 219, 1);
+  --dodger-blue: rgba(33, 150, 243, 1);
+  --eastern-blue: rgba(23, 162, 184, 1);
+  --fringy-flower: rgba(195, 230, 203, 1);
+  --geyser: rgba(203, 213, 224, 1);
+  --hawkes-blue: rgba(236, 240, 241, 1);
+  --iceberg: rgba(236, 240, 241, 1);
+  --inter-regular-font-family: "Inter", Helvetica;
+  --inter-regular-font-size: 16px;
+  --inter-regular-font-style: normal;
+  --inter-regular-font-weight: 400;
+  --inter-regular-letter-spacing: 0px;
+  --inter-regular-line-height: normal;
+  --jungle-green: rgba(39, 174, 96, 1);
+  --lavender-blush: rgba(255, 235, 238, 1);
+  --mariner: rgba(41, 128, 185, 1);
+  --mystic: rgba(224, 230, 237, 1);
+  --noto-sans-JP-bold-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-bold-font-size: 24px;
+  --noto-sans-JP-bold-font-style: normal;
+  --noto-sans-JP-bold-font-weight: 700;
+  --noto-sans-JP-bold-letter-spacing: 0px;
+  --noto-sans-JP-bold-line-height: normal;
+  --noto-sans-JP-demilight-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-demilight-font-size: 14px;
+  --noto-sans-JP-demilight-font-style: normal;
+  --noto-sans-JP-demilight-font-weight: 300;
+  --noto-sans-JP-demilight-letter-spacing: 0px;
+  --noto-sans-JP-demilight-line-height: 21px;
+  --noto-sans-JP-medium-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-medium-font-size: 12px;
+  --noto-sans-JP-medium-font-style: normal;
+  --noto-sans-JP-medium-font-weight: 500;
+  --noto-sans-JP-medium-letter-spacing: 0px;
+  --noto-sans-JP-medium-line-height: normal;
+  --noto-sans-JP-medium-underline-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-medium-underline-font-size: 16px;
+  --noto-sans-JP-medium-underline-font-style: normal;
+  --noto-sans-JP-medium-underline-font-weight: 500;
+  --noto-sans-JP-medium-underline-letter-spacing: 0px;
+  --noto-sans-JP-medium-underline-line-height: normal;
+  --noto-sans-JP-semibold-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-semibold-font-size: 16px;
+  --noto-sans-JP-semibold-font-style: normal;
+  --noto-sans-JP-semibold-font-weight: 600;
+  --noto-sans-JP-semibold-letter-spacing: 0px;
+  --noto-sans-JP-semibold-line-height: normal;
+  --noto-sans-JP-semibold-upper-font-family: "Noto Sans JP", Helvetica;
+  --noto-sans-JP-semibold-upper-font-size: 11px;
+  --noto-sans-JP-semibold-upper-font-style: normal;
+  --noto-sans-JP-semibold-upper-font-weight: 600;
+  --noto-sans-JP-semibold-upper-letter-spacing: 0px;
+  --noto-sans-JP-semibold-upper-line-height: normal;
+  --oslo-gray: rgba(127, 140, 141, 1);
+  --panache: rgba(232, 245, 233, 1);
+  --pewter: rgba(149, 165, 166, 1);
+  --pickled-bluewood: rgba(44, 62, 80, 1);
+  --pomegranate: rgba(244, 67, 54, 1);
+  --porcelain: rgba(236, 240, 241, 1);
+  --sail: rgba(187, 222, 251, 1);
+  --sazerac: rgba(232, 245, 233, 1);
+  --semantic-button-font-family: "Arial", Helvetica;
+  --semantic-button-font-size: 15.25px;
+  --semantic-button-font-style: normal;
+  --semantic-button-font-weight: 700;
+  --semantic-button-letter-spacing: 0px;
+  --semantic-button-line-height: normal;
+  --semantic-cell-upper-font-family: "Noto Sans JP", Helvetica;
+  --semantic-cell-upper-font-size: 13px;
+  --semantic-cell-upper-font-style: normal;
+  --semantic-cell-upper-font-weight: 600;
+  --semantic-cell-upper-letter-spacing: 0px;
+  --semantic-cell-upper-line-height: normal;
+  --semantic-data-font-family: "Noto Sans JP", Helvetica;
+  --semantic-data-font-size: 15px;
+  --semantic-data-font-style: normal;
+  --semantic-data-font-weight: 600;
+  --semantic-data-letter-spacing: 0px;
+  --semantic-data-line-height: normal;
+  --semantic-heading-1-font-family: "Noto Sans JP", Helvetica;
+  --semantic-heading-1-font-size: 28px;
+  --semantic-heading-1-font-style: normal;
+  --semantic-heading-1-font-weight: 700;
+  --semantic-heading-1-letter-spacing: 0px;
+  --semantic-heading-1-line-height: normal;
+  --semantic-heading-2-font-family: "Noto Sans JP", Helvetica;
+  --semantic-heading-2-font-size: 18px;
+  --semantic-heading-2-font-style: normal;
+  --semantic-heading-2-font-weight: 600;
+  --semantic-heading-2-letter-spacing: 0px;
+  --semantic-heading-2-line-height: normal;
+  --semantic-input-font-family: "Arial", Helvetica;
+  --semantic-input-font-size: 18px;
+  --semantic-input-font-style: normal;
+  --semantic-input-font-weight: 700;
+  --semantic-input-letter-spacing: 0px;
+  --semantic-input-line-height: normal;
+  --semantic-label-font-family: "Noto Sans JP", Helvetica;
+  --semantic-label-font-size: 14px;
+  --semantic-label-font-style: normal;
+  --semantic-label-font-weight: 500;
+  --semantic-label-letter-spacing: 0px;
+  --semantic-label-line-height: normal;
+  --semantic-label-upper-font-family: "Noto Sans JP", Helvetica;
+  --semantic-label-upper-font-size: 12px;
+  --semantic-label-upper-font-style: normal;
+  --semantic-label-upper-font-weight: 300;
+  --semantic-label-upper-letter-spacing: 0px;
+  --semantic-label-upper-line-height: normal;
+  --semantic-link-font-family: "Noto Sans JP", Helvetica;
+  --semantic-link-font-size: 14px;
+  --semantic-link-font-style: normal;
+  --semantic-link-font-weight: 300;
+  --semantic-link-letter-spacing: 0px;
+  --semantic-link-line-height: normal;
+  --semantic-options-font-family: "Arial", Helvetica;
+  --semantic-options-font-size: 14px;
+  --semantic-options-font-style: normal;
+  --semantic-options-font-weight: 400;
+  --semantic-options-letter-spacing: 0px;
+  --semantic-options-line-height: 16px;
+  --semantic-textarea-font-family: "Inter", Helvetica;
+  --semantic-textarea-font-size: 14px;
+  --semantic-textarea-font-style: normal;
+  --semantic-textarea-font-weight: 400;
+  --semantic-textarea-letter-spacing: 0px;
+  --semantic-textarea-line-height: normal;
+  --white: rgba(255, 255, 255, 1);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-catskill-white: rgba(255, 255, 255, 1);
+  --yukon-gold: rgba(133, 100, 4, 1);
+  --zanah: rgba(212, 237, 218, 1);
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

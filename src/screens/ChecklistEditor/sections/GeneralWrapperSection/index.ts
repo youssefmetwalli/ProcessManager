@@ -1,0 +1,1 @@
+export { GeneralWrapperSection } from "./GeneralWrapperSection";
