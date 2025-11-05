@@ -1,5 +1,6 @@
+import { SidebarSection } from "../Dashboard/sections/SidebarSection";
 import { MainContentSection } from "./sections/MainContentSection";
-import { SidebarSection } from "./sections/SidebarSection";
+
 
 export const ChecklistManagement = (): JSX.Element => {
   return (

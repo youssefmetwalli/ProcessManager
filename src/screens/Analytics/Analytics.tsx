@@ -1,5 +1,5 @@
+import { SidebarSection } from "../Dashboard/sections/SidebarSection";
 import { DashboardSection } from "./sections/DashboardSection";
-import { SidebarSection } from "./sections/SidebarSection";
 
 export const Analytics = (): JSX.Element => {
   return (

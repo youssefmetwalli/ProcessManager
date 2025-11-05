@@ -65,9 +65,9 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
+          DEFAULT: 'hsl(var(--accent, 204 70% 60% / 0.25))', // fallback soft sky-blue
+          foreground: 'hsl(var(--accent-foreground, 0 0% 100%))',
+      },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
