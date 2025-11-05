@@ -166,4 +166,15 @@ const kanbanColumns = [
   },
 ];
 
-export { statsData, kanbanColumns};
+const mainMenuItems = [
+  { id: "dashboard", label: "🏠 ダッシュボード", active: false },
+  { id: "master", label: "📋 マスタ管理", active: false },
+  { id: "process", label: "⚙ 工程管理", active: true },
+  { id: "execute", label: "▶ 実行", active: false },
+];
+const reportMenuItems = [
+  { id: "quality", label: "📊 品質分析", active: false },
+  { id: "report", label: "📄 帳票出力", active: false },
+];
+
+export { statsData, kanbanColumns, mainMenuItems, reportMenuItems };

@@ -1,1 +1,1 @@
-export { ChecklistEditor } from "./ScreenWrapper";
+export { ChecklistEditor } from "./ChecklistEditor";

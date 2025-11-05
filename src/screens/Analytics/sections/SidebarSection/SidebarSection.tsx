@@ -1,5 +1,6 @@
 import { Button } from "../../../../components/ui/button";
-import { mainMenuItems, reportMenuItems } from "../../../../lib/elements/analytics/sidebar";
+import {mainMenuItems, reportMenuItems } from "../../../../lib/elements/analytics/analyticsdashboard";
+
 
 
 export const SidebarSection = (): JSX.Element => {

@@ -1,68 +1,68 @@
 {
   "nodes": [
     {
-      "id": "src/screens/Screen/Screen.tsx",
-      "label": "Screen",
+      "id": "src/screens/Dashboard/Dashboard.tsx",
+      "label": "Dashboard",
       "routes": [
         "/*",
-        "/u12479u12441u12483u12471u12517u12507u12441u12540u12488u12441"
+        "/dashboard"
       ],
       "dataModelId": "1:1816",
       "isRoot": true
     },
     {
-      "id": "src/screens/ScreenScreen/ScreenScreen.tsx",
-      "label": "ScreenScreen",
+      "id": "src/screens/ChecklistDetail/ChecklistDetail.tsx",
+      "label": "ChecklistDetail",
       "routes": [
-        "/u12481u12455u12483u12463u38917u30446u32232u38598u30011u38754u65288u21491u12495u12442u12493u12523u32154u12365u65289"
+        "/checklistdetail"
       ],
       "dataModelId": "1:2158"
     },
     {
-      "id": "src/screens/ScreenWrapper/ScreenWrapper.tsx",
-      "label": "ScreenWrapper",
+      "id": "src/screens/ChecklistEditor/ChecklistEditor.tsx",
+      "label": "ChecklistEditor",
       "routes": [
-        "/u12481u12455u12483u12463u12522u12473u12488u35443u32048u30011u38754"
+        "/checklisteditor"
       ],
       "dataModelId": "1:593"
     },
     {
-      "id": "src/screens/Screen3/Screen3.tsx",
-      "label": "Screen3",
+      "id": "src/screens/Execution/Execution.tsx",
+      "label": "Execution",
       "routes": [
-        "/u12481u12455u12483u12463u12471u12540u12488u23455u34892u30011u38754u65288u12479u12501u12441u12524u12483u12488u65289"
+        "/execution"
       ],
       "dataModelId": "1:2286"
     },
     {
-      "id": "src/screens/Screen4/Screen4.tsx",
-      "label": "Screen4",
+      "id": "src/screens/ChecklistManagement/ChecklistManagement.tsx",
+      "label": "ChecklistManagement",
       "routes": [
-        "/u12481u12455u12483u12463u38917u30446u12510u12473u12479u19968u35239"
+        "/checklists"
       ],
       "dataModelId": "1:924"
     },
     {
-      "id": "src/screens/Screen5/Screen5.tsx",
-      "label": "Screen5",
+      "id": "src/screens/ProcessSheetManagement/ProcessSheetManagement.tsx",
+      "label": "ProcessSheetManagement",
       "routes": [
-        "/u23455u34892u32080u26524u30906u35469u30011u38754u65288u12479u12501u12441u12524u12483u12488u65289"
+        "/process-sheets"
       ],
       "dataModelId": "1:2712"
     },
     {
-      "id": "src/screens/Screen6/Screen6.tsx",
-      "label": "Screen6",
+      "id": "src/screens/Kanban/Kanban.tsx",
+      "label": "Kanban",
       "routes": [
-        "/u20316u26989u12481u12455u12483u12463u12522u12473u12488u19968u35239"
+        "/kanban"
       ],
       "dataModelId": "1:1065"
     },
     {
-      "id": "src/screens/Screen7/Screen7.tsx",
-      "label": "Screen7",
+      "id": "src/screens/Analytics/Analytics.tsx",
+      "label": "Analytics",
       "routes": [
-        "/u24037u31243u12481u12455u12483u12463u12471u12540u12488u19968u35239u65288u12459u12531u12495u12441u12531u65289"
+        "/analytics"
       ],
       "dataModelId": "1:1385"
     }
