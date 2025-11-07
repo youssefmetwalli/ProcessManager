@@ -5,8 +5,8 @@ import { ChecklistEditor } from "./screens/ChecklistEditor";
 import { Execution } from "./screens/Execution";
 import { ChecklistManagement } from "./screens/ChecklistManagement";
 import { ProcessSheetManagement } from "./screens/ProcessSheetManagement";
-import { Kanban } from "lucide-react";
 import { Analytics } from "./screens/Analytics";
+import { Kanban } from "./screens/Kanban";
 
 
 const router = createBrowserRouter([
