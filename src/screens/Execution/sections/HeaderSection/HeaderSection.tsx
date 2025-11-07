@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../../../../components/ui/button";
 import { Progress } from "../../../../components/ui/progress";
 import { milestones } from "../../../../lib/elements/execution/execution";
@@ -9,12 +10,15 @@ export const HeaderSection = (): JSX.Element => {
     <header className="flex flex-col w-full items-start gap-3 px-5 py-4 bg-white shadow-[0px_2px_8px_#0000000f] translate-y-[-1rem] animate-fade-in opacity-0">
       <div className="flex items-center justify-between w-full">
         <Button
+          asChild
           variant="ghost"
           className="h-auto pt-2.5 pb-3 px-4 bg-porcelain rounded-lg hover:bg-porcelain/80 transition-colors"
         >
-          <span className="[font-family:'Arial-Narrow',Helvetica] font-normal text-black text-sm text-center whitespace-nowrap tracking-[0] leading-[normal]">
-            ← 戻る
-          </span>
+          <Link to="/dashboard">
+            <span className="[font-family:'Arial-Narrow',Helvetica] font-normal text-black text-sm text-center whitespace-nowrap tracking-[0] leading-[normal]">
+              ← 戻る
+            </span>
+          </Link>
         </Button>
 
         <h1 className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-pickled-bluewood text-xl whitespace-nowrap tracking-[0] leading-[normal]">
